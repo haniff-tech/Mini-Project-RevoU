@@ -1,6 +1,6 @@
 
 
-function tampilkanFormLuas() {
+function tampilkanFormLuas() { 
     document.getElementById("luasForm").style.display = "inline";
     document.getElementById("kelilingForm").style.display = "none";
 }
