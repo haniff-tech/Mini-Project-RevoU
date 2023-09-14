@@ -1,0 +1,175 @@
+body {
+   background-image:url(/gambar/wallpaper.JPG);
+   background-size: cover;
+   background-repeat: no-repeat;
+   
+}
+/*--------Header--------- */
+.logo {
+    position: absolute;
+    height: 90px;
+    width: 100px;
+}
+.container {
+    position: relative;
+}
+h1 {
+    font-size: 40px;
+    color: blue;
+    margin-top: 0;
+    margin-top: 0;
+    text-align: center;
+    display: inline-block;
+}
+
+h2, p {
+    text-align: center;
+    font-size: 20px;
+}
+
+.atas {
+    width: 100%;
+    background-color: lightblue;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 700px;
+    text-align: center;
+    
+}
+
+.kiri {
+    text-align: left;
+    width: 15%;
+    color: red;
+    display: inline-block;
+    font-family: Impact, serif;
+    
+}
+
+.kanan {
+    text-align: right;
+    font-family: Impact, serif;
+    
+}
+
+
+/*--------Header--------- */
+
+.LuasInput {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 21px; 
+    background-color: lightblue; 
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 700px;
+    text-align: center;
+}
+  
+
+.InputButton {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: lightblue;
+    margin-top: 7px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 700px;
+    text-align: center;
+}
+
+.InputField {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8px;
+}
+
+button {
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.buttonHitung {
+    min-width: 150px;
+    min-height: 60px;
+    margin-right: 25px;
+}
+
+.buttonReset {
+    min-width: 150px;
+    min-height: 60px;
+    margin-right: 25px;
+}
+
+.deskripsi {
+    
+    background-color: lightblue;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 700px;
+    text-align: center;
+    border: solid;
+    padding: 26px;
+    font-family: system-ui;
+}
+
+.perhitungan {
+    
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 700px;
+    text-align: center;
+    border: solid;
+    padding: 26px;
+    font-family: system-ui;
+}
+.Label_input {
+    height: 60px;
+}
+
+.label_SisiPersegi {
+    font-size: 20px;
+}
+
+.text-box {
+    position: absolute; 
+    bottom: 10px; 
+    left: 120px; 
+}
+
+.text-box p {
+    left: 120px;
+    margin-right: 310px;
+    color: white;
+}
+
+.text-box h1{
+    font-size: 120px;
+    line-height: 100px;
+    color: transparent;
+    -webkit-text-stroke: 1px white;
+    background: url(/gambar/back.png);
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: back 20s linear infinite;
+}
+
+
+@keyframes back {
+    100% {
+        background-position: 2000px 0;
+    }
+}
