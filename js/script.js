@@ -2,7 +2,7 @@
 
 function tampilkanFormLuas() {
     document.getElementById("luasForm").style.display = "inline";
-    document.getElementById("kelilingForm").style.display = "none";
+    document.getElementById("kelilingForm").style.display = "none";  
 }
 
 function tampilkanFormKeliling() {
