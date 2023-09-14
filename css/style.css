@@ -1,5 +1,5 @@
 body {
-   background-image:url(/gambar/wallpaper.JPG);
+   background-image:url(../gambar/wallpaper.JPG);
    background-size: cover;
    background-repeat: no-repeat;
    
@@ -162,7 +162,7 @@ button {
     color: transparent;
     -webkit-text-stroke: 1px white;
     background: url(/gambar/back.png);
-    -webkit-background-clip: text;
+     -webkit-background-clip: text; 
     background-position: 0 0;
     animation: back 20s linear infinite;
 }
