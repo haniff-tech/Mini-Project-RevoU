@@ -6,7 +6,7 @@ body {
 }
 /*--------Header--------- */
 .logo {
-    position: absolute;
+    position: absolute; 
     height: 90px;
     width: 100px;
 }
